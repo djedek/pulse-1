@@ -1,0 +1,46 @@
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        &__logo {
+            margin-bottom: 15px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+    }
+}
+
+@media (max-width: 528px) {
+    .promo {
+        padding-bottom: 40px;
+        &__wrapper {
+            margin-top: 50px;
+            align-items: center;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__subheader {
+            font-size: 18px;
+            text-align: center;
+        }
+        &__icons {
+            width: 300px;
+            margin-top: 45px;
+        }
+        &__icon {
+            font-size: 13px;
+        }
+    }
+}
