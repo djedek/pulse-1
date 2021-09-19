@@ -37,6 +37,22 @@
         }
         
     }
+    .consultation {
+        min-height: 600px;
+        padding: 40px 0 40px 0;
+        &__descr {
+            font-size: 20px;
+            color: #FFFFFF;
+            margin-top: 70px;
+            line-height: 26px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
 }
 
 @media (max-width: 528px) {
@@ -63,5 +79,16 @@
     }
     .title {
         font-size: 24px;
+        &_left {
+            font-size: 20px;
+            line-height: 30px;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 18px;
+            line-height: 22px;
+            margin-top: 40px;
+        }
     }
 }
