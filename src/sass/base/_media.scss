@@ -2,6 +2,37 @@
     .container {
         padding: 0 10px;
     }
+
+    /* slick slider */
+    .carousel {
+        &__inner {
+            width: 530px;
+            img{
+                width: 100%;
+            }
+        }
+        .slick-dots {
+            list-style-type: none;
+            display: flex !important;
+            width: 150px;
+            margin: 30px auto 0;
+            padding: 0;
+            justify-content: space-between;
+            li {
+                display: block;
+                width: 15px;
+                height: 15px;
+                border: 2px solid $main-color;
+                border-radius: 100%;
+                &.slick-active {
+                    background-color: $main-color;
+                }
+                button {
+                    display: none;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -51,6 +82,13 @@
         &_left {
             font-size: 30px;
             line-height: 40px;
+        }
+    }
+
+    /* Slick slider */
+    .carousel {
+        &__inner {
+            width: 300px;
         }
     }
 }
