@@ -5,7 +5,7 @@
         width: 750px;
         margin: 0 auto;
     }
-    .slick-prev, .slick-next {
+    /* .slick-prev, .slick-next {
         position: absolute;
         z-index: 2;
         left: -91px;
@@ -22,5 +22,45 @@
     .slick-next {
         right: -91px;
         left: auto;
+    } */
+    .prev, .next {
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: #fff;
+        padding: 0;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .next {
+        right: 0;
+        left: auto;
+    }
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .tns-nav {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        button {
+            display: block;
+            width: 20px;
+            height: 8px;
+            margin: 0 10px;
+            border: 2px solid $main-color;
+            border-radius: 3px;
+            &.tns-nav-active {
+                background-color: $main-color;
+            }
+        }
     }
 }
