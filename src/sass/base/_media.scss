@@ -14,7 +14,7 @@
     }
     .tns-item {
         img {
-            width: 70%;
+            width: 75%;
         }
     }
 
@@ -113,6 +113,9 @@
         }
         .next {
             display: none;
+        }
+        .tns-nav {
+            display: flex;
         }
     }
 

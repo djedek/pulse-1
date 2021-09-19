@@ -23,12 +23,7 @@ const slider = tns({
     autoplay: false,
     controls: false,
     nav: true,
-    navPosition: 'bottom',
-    responsive: {
-        769: {
-          nav: false
-        }
-    }
+    navPosition: 'bottom'
 });
 
 document.querySelector('.next').addEventListener("click", function () {
