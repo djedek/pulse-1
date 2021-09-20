@@ -41,10 +41,15 @@
         right: 0;
         left: auto;
     }
+    .tns-outer {
+        width: 750px;
+        margin: 0 auto;
+    }
     .tns-item {
         img {
             display: block;
             margin: 0 auto;
+            width: 100%;
         }
     }
     .tns-nav {
