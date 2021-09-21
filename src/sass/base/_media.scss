@@ -22,6 +22,14 @@
             justify-content: space-around;
         }
     }
+    .reviews {
+        &__item {
+            justify-content: space-around;
+        }
+        &__photo {
+            margin: 10px;
+        }
+    }
     
 
 //     /* slick slider */
@@ -138,6 +146,15 @@
         &__content {
             justify-content: space-around;
             margin-top: 40px;
+        }
+    }
+    .reviews {
+        &__content {
+            text-align: center;
+        }
+        &__text {
+            text-align: justify;
+            font-size: 14px;
         }
     }
 
