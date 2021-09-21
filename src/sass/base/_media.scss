@@ -2,8 +2,6 @@
     .container {
         padding: 0 10px;
     }
-
-    
     .carousel {
         .prev {
             left: 10px;
@@ -16,6 +14,15 @@
             margin: 0 auto;
         }
     }
+    .catalog {
+        &__tab {
+            margin-bottom: 10px;
+        }
+        &__content {
+            justify-content: space-around;
+        }
+    }
+    
 
 //     /* slick slider */
 //     .carousel {
@@ -115,6 +122,22 @@
         }
         .tns-nav {
             display: flex;
+        }
+    }
+    .catalog {
+        padding-bottom: 70px;
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 200px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 38px;
+        }
+        &__content {
+            justify-content: space-around;
+            margin-top: 40px;
         }
     }
 
