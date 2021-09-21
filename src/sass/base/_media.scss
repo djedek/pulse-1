@@ -201,4 +201,21 @@
             width: 300px;
         }
     }
+    .modal {
+        width: 225px;
+        padding: 10px;
+        &__subtitle {
+            line-height: 20px;
+        }
+        &__descr {
+            line-height: 16px;
+            margin-top: 10px;
+        }
+    }
+    .feed-form {
+        width: 100%;
+    }
+    .button {
+        font-size: 14px;
+    }
 }

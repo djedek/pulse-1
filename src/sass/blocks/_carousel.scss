@@ -25,7 +25,6 @@
     } */
     .prev, .next {
         position: absolute;
-        z-index: 2;
         left: 0;
         top: 50%;
         transform: translateY(-50%);
