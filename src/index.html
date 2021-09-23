@@ -11,12 +11,13 @@
     <link rel="stylesheet" href="css/fonts.css">
     <!-- <link rel="stylesheet" href="css/slick.css"> -->
     <link rel="stylesheet" href="css/tiny-slider.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -59,7 +60,7 @@
 
                 <div class="promo__link">
                     или
-                    <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+                    <a href="#catalog">ПЕРЕЙТИ В КАТАЛОГ</a>
                 </div>
             </div>
 
@@ -71,7 +72,7 @@
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__wrapper">
                 <div class="advantages__item">
-                    <div class="advantages__icon">
+                    <div class="advantages__icon advantages__icon_animated">
                         <img src="img/s2/cup.png" alt="cup">
                     </div>
                     <div class="advantages__subtitle">Делимся опытом</div>
@@ -79,7 +80,7 @@
                         как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__item">
-                    <div class="advantages__icon">
+                    <div class="advantages__icon advantages__icon_animated">
                         <img src="img/s2/heart.png" alt="heart">
                     </div>
                     <div class="advantages__subtitle">Заботимся о здоровье</div>
@@ -87,7 +88,7 @@
                         Вашему здоровью и были в радость Вам и Вашим близким!</div>
                 </div>
                 <div class="advantages__item">
-                    <div class="advantages__icon">
+                    <div class="advantages__icon advantages__icon_animated">
                         <img src="img/s2/shoe.png" alt="shoe">
                     </div>
                     <div class="advantages__subtitle">Учим бегать</div>
@@ -131,7 +132,7 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section id="catalog" class="catalog">
         <div class="container">
             <h2 class="title">Каталог пульсометров</h2>
             <ul class="catalog__tabs">
@@ -392,7 +393,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
             <div class="reviews__wrapper">
-                <div class="reviews__item">
+                <div class="reviews__item wow animate__animated animate__fadeInUp" data-wow-duration='2s' data-wow-delay='1s'>
                     <div class="reviews__photo">
                         <img src="img/s6/photo_1.jpg" alt="photo">
                     </div>
@@ -405,7 +406,7 @@
                     </div>
                 </div>
 
-                <div class="reviews__item">
+                <div class="reviews__item wow animate__animated animate__fadeInUp" data-wow-duration='2s' data-wow-delay='1.2s'>
                     <div class="reviews__photo">
                         <img src="img/s6/photo_2.jpg" alt="photo">
                     </div>
@@ -417,7 +418,7 @@
                     </div>
                 </div>
 
-                <div class="reviews__item">
+                <div class="reviews__item wow animate__animated animate__fadeInUp" data-wow-duration='2s' data-wow-delay='1.5s'>
                     <div class="reviews__photo">
                         <img src="img/s6/photo_3.jpg" alt="photo">
                     </div>
@@ -480,11 +481,15 @@
         </div>
     </div>
 
+    <a href="#up" class="pageup"><img src="icons/circle-up.svg" alt="up"></a>
+    
+
     <script src="js/jquery.min.js"></script>
     <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
     <!-- <script src="js/slick.min.js"></script> -->
     <script src="js/tiny-slider.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>

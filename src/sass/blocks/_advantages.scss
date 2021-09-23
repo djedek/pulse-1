@@ -18,6 +18,13 @@
         img {
             width: 100%;
         }
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            // animation-name: heartbeat;
+            // animation-duration: 1s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: 10;
+        }
     }
     &__subtitle {
         font-size: 18px;
